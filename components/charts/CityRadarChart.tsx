@@ -24,10 +24,10 @@ export function CityRadarChart({ cities, height = 400 }: CityRadarChartProps) {
   return (
     <ResponsiveContainer width="100%" height={height}>
       <RadarChart data={data} margin={{ top: 20, right: 30, bottom: 20, left: 30 }}>
-        <PolarGrid stroke="#e5e7eb" />
+        <PolarGrid stroke="rgba(212, 165, 116, 0.2)" />
         <PolarAngleAxis
           dataKey="category"
-          tick={{ fill: '#4b5563', fontSize: 12 }}
+          tick={{ fill: '#9ca3af', fontSize: 12 }}
         />
         <PolarRadiusAxis
           angle={30}
@@ -37,24 +37,24 @@ export function CityRadarChart({ cities, height = 400 }: CityRadarChartProps) {
         />
         <Tooltip
           contentStyle={{
-            backgroundColor: '#ffffff',
-            border: '1px solid #e5e7eb',
+            backgroundColor: '#1a1a1a',
+            border: '1px solid rgba(212, 165, 116, 0.3)',
             borderRadius: '8px',
-            color: '#111827',
-            boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+            color: '#f5f5f5',
+            boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.3)',
           }}
           formatter={(value) => typeof value === 'number' ? value.toFixed(1) : value}
         />
         <Legend
-          formatter={(value) => <span style={{ color: '#374151' }}>{value}</span>}
+          formatter={(value) => <span style={{ color: '#9ca3af' }}>{value}</span>}
         />
         {cities.map((city) => (
           <Radar
             key={city.city}
             name={city.city}
             dataKey={city.city}
-            stroke={CITY_COLORS[city.city.toLowerCase()] || '#6366f1'}
-            fill={CITY_COLORS[city.city.toLowerCase()] || '#6366f1'}
+            stroke={CITY_COLORS[city.city.toLowerCase()] || '#d4a574'}
+            fill={CITY_COLORS[city.city.toLowerCase()] || '#d4a574'}
             fillOpacity={0.2}
             strokeWidth={2}
           />

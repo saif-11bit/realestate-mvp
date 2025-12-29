@@ -34,7 +34,7 @@ export function ScoreBar({
 
   return (
     <div className="w-full">
-      <div className={`w-full bg-gray-200 rounded-full overflow-hidden ${heights[size]}`}>
+      <div className={`w-full bg-white/10 rounded-full overflow-hidden ${heights[size]}`}>
         <div
           className={`h-full rounded-full ${animated ? 'score-bar-animated' : ''}`}
           style={{
@@ -47,7 +47,7 @@ export function ScoreBar({
       {showLabel && (
         <div className="flex justify-between mt-1 text-xs text-gray-500">
           <span>0</span>
-          <span className="font-semibold text-gray-900">{score.toFixed(1)}</span>
+          <span className="font-semibold text-white">{score.toFixed(1)}</span>
           <span>{maxScore}</span>
         </div>
       )}

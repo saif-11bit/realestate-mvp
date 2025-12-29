@@ -27,8 +27,8 @@ export function ScoreGauge({
 
   const getColor = () => {
     if (color) return color;
-    if (score >= 70) return '#10b981';
-    if (score >= 50) return '#00d4ff';
+    if (score >= 70) return '#d4a574';
+    if (score >= 50) return '#3b82f6';
     if (score >= 30) return '#f59e0b';
     return '#ef4444';
   };
@@ -49,7 +49,7 @@ export function ScoreGauge({
             stroke="none"
           >
             <Cell fill={getColor()} />
-            <Cell fill="#e5e7eb" />
+            <Cell fill="rgba(255, 255, 255, 0.1)" />
           </Pie>
         </PieChart>
       </ResponsiveContainer>
