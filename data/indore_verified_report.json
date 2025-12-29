@@ -1,0 +1,342 @@
+{
+  "report_generated": "2025-12-29T14:51:43.621098",
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "population": 3393000,
+  "scores": {
+    "healthcare_score": 31.65,
+    "hospitality_score": 31.69,
+    "education_score": 39.74,
+    "real_estate_score": 66.35,
+    "future_infrastructure_score": 65.25,
+    "migration_score": 52.73,
+    "overall_score": 47.9
+  },
+  "verified_data": {
+    "metadata": {
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "data_compiled_date": "2024-12-09",
+      "data_quality_notes": "Data compiled from government sources. Indore is the largest city in MP and won National Smart City Award twice."
+    },
+    "population": {
+      "value": 3393000,
+      "unit": "metro area population",
+      "year": 2024,
+      "growth_rate_yoy": 2.76,
+      "district_population": 3276697,
+      "source": {
+        "name": "MacroTrends",
+        "url": "https://www.macrotrends.net/global-metrics/cities/21278/indore/population",
+        "accessed_date": "2024-12-09",
+        "reliability": "HIGH",
+        "notes": "Metro area estimate 2024. District population from Census 2011."
+      }
+    },
+    "healthcare": {
+      "data": {
+        "hospital_beds_per_1000": 0.5,
+        "state_total_beds": 64939,
+        "state_bed_gap": 360073,
+        "niti_health_index_score": 40.77,
+        "niti_health_index_rank": "17th among larger states",
+        "aiims_present": true,
+        "aiims_location": "AIIMS Bhopal (state capital)",
+        "major_hospitals_indore": [
+          {
+            "name": "Sri Aurobindo Institute of Medical Sciences",
+            "beds": 1750,
+            "founded": 2003
+          },
+          {
+            "name": "Maharaja Yashwantrao Hospital",
+            "beds": 1300,
+            "founded": 1948
+          }
+        ]
+      },
+      "sources": [
+        {
+          "data_point": "hospital_beds_per_1000",
+          "value": 0.5,
+          "source_name": "HospaccX Consulting / National Health Profile",
+          "url": "https://hospaccxconsulting.com/healthcare-scenario-madhya-pradesh-2023/",
+          "year": 2023,
+          "reliability": "HIGH",
+          "notes": "State-level data. MP has 0.5 beds/1000, below national avg of 0.79"
+        },
+        {
+          "data_point": "niti_health_index_score",
+          "value": 40.77,
+          "source_name": "NITI Aayog State Health Index 5th Edition",
+          "url": "https://www.geeksforgeeks.org/upsc/niti-aayog-health-index-2023/",
+          "original_source": "https://social.niti.gov.in/hlt-ranking",
+          "year": "2020-21",
+          "reliability": "HIGH",
+          "notes": "MP ranks 17th among larger states. Falls in 'Aspirants' category (score below 48)."
+        },
+        {
+          "data_point": "major_hospitals",
+          "source_name": "HospaccX Consulting",
+          "url": "https://hospaccxconsulting.com/healthcare-scenario-madhya-pradesh-2023/",
+          "reliability": "HIGH",
+          "notes": "Sri Aurobindo (1750 beds), MY Hospital (1300 beds) are major Indore hospitals"
+        }
+      ]
+    },
+    "hospitality": {
+      "data": {
+        "total_hotels_makemytrip": 495,
+        "total_hotels_oyo": 20,
+        "star_hotels_estimated": 50,
+        "total_hotels_estimated": 500,
+        "average_occupancy_rate_india": 65,
+        "avg_hotel_price_oyo_inr": 891,
+        "tourism_type": "business_commercial",
+        "tourism_notes": "Indore is a major business/commercial hub, not a primary tourist destination"
+      },
+      "sources": [
+        {
+          "data_point": "total_hotels_makemytrip",
+          "value": 495,
+          "source_name": "MakeMyTrip",
+          "url": "https://www.makemytrip.com/hotels/indore-hotels.html",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "495+ hotels listed on MakeMyTrip for Indore."
+        },
+        {
+          "data_point": "total_hotels_oyo",
+          "value": 20,
+          "source_name": "OYO Rooms / Holidify",
+          "url": "https://www.oyorooms.com/hotels-in-indore/",
+          "url2": "https://www.holidify.com/hotels/oyo-hotels-in-indore-8328.html",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "~20 OYO stay options in Indore. Avg price Rs 891/night. Popular: OYO Townhouse 135 Gandhi Hall, OYO Townhouse 327 C21 Mall."
+        }
+      ],
+      "data_gaps": [
+        "City occupancy rates",
+        "Ministry classified hotel count",
+        "Business traveler statistics"
+      ]
+    },
+    "education": {
+      "data": {
+        "universities_count": 6,
+        "iit_present": true,
+        "iit_name": "IIT Indore",
+        "iit_nirf_rank": 13,
+        "nit_present": false,
+        "iim_present": true,
+        "iim_name": "IIM Indore",
+        "literacy_rate_district": 80.87,
+        "literacy_rate_urban": 84.93,
+        "literacy_rate_male": 87.25,
+        "literacy_rate_female": 74.02,
+        "district_literacy_rank_state": "2nd in MP",
+        "district_literacy_rank_india": "136th out of 632"
+      },
+      "sources": [
+        {
+          "data_point": "iit_indore",
+          "source_name": "Zollege / NIRF Rankings",
+          "url": "https://zollege.in/engineering/indore/aicte-approved-colleges",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "IIT Indore ranked #13 in NIRF 2024. First year fees Rs 2,15,300."
+        },
+        {
+          "data_point": "literacy_rate",
+          "value": 80.87,
+          "source_name": "Census 2011",
+          "url": "https://www.census2011.co.in/census/district/306-indore.html",
+          "year": 2011,
+          "reliability": "HIGH",
+          "notes": "District literacy 80.87%, Urban 84.93%. Ranks 2nd in MP, 136th in India."
+        }
+      ]
+    },
+    "real_estate": {
+      "data": {
+        "avg_price_per_sqft_city": 4500,
+        "vijay_nagar_price_sqft": 6100,
+        "vijay_nagar_range": "4500-8350",
+        "super_corridor_price_sqft": 4350,
+        "super_corridor_range": "3550-4500",
+        "scheme_no_54_price_sqft": 5475,
+        "affordable_areas_price": 2000,
+        "price_appreciation_1yr_vijay_nagar": 52.5,
+        "price_appreciation_5yr_vijay_nagar": 125.9,
+        "price_appreciation_5yr_super_corridor": 76.6,
+        "guideline_rate_hike_proposed": 26,
+        "affordable_housing_leader": true,
+        "connectivity_infrastructure_growth": true,
+        "tier2_growth_hub": true
+      },
+      "sources": [
+        {
+          "data_point": "property_prices",
+          "source_name": "99acres Property Rates",
+          "url": "https://www.99acres.com/property-rates-and-price-trends-in-indore-prffid",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Vijay Nagar avg Rs 6,100/sqft (125.9% growth in 5 years). Super Corridor Rs 4,350/sqft."
+        },
+        {
+          "data_point": "market_trends",
+          "source_name": "Houssed / DhillVista",
+          "url": "https://houssed.com/blog/guides/indore-property-price-trends",
+          "year": 2024,
+          "reliability": "MEDIUM",
+          "notes": "8-12% annual appreciation 2020-2024. 26% guideline rate hike proposed for 2025."
+        },
+        {
+          "data_point": "affordable_housing",
+          "source_name": "Knight Frank India",
+          "url": "https://www.knightfrank.co.in/research",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Indore leading affordable housing development. Quintessential example of improved connectivity and infrastructure paving way for price appreciation."
+        },
+        {
+          "data_point": "tier2_market_outlook",
+          "source_name": "CBRE India - Tier-II Cities Report",
+          "url": "https://www.cbre.co.in/insights/reports",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Indore part of CBRE's top tier-2 cities. Gaining momentum driven by infrastructure development and rising consumer demand. Emerging as critical node in India's urban growth."
+        },
+        {
+          "data_point": "residential_growth",
+          "source_name": "JLL India Research",
+          "url": "https://www.jll.co.in/en/trends-and-insights/research",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Indore among key tier-2 growth hubs driving 40%+ of new housing developments by 2025. Steady price appreciation reinforcing market strength."
+        }
+      ]
+    },
+    "future_infrastructure": {
+      "data": {
+        "metro_yellow_line_length_km": 34,
+        "metro_phase_1_inaugurated": "2025-05-31",
+        "metro_total_cost_crore": 15000,
+        "metro_cost_per_km_crore": 182,
+        "metro_funding_adb_million_usd": 190,
+        "metro_funding_ndb_million_usd": 225,
+        "metro_underground_length_km": 8.62,
+        "metro_completion_target": "2030-01",
+        "metro_phases_approved": 1,
+        "railway_indore_dahod_km": 205,
+        "railway_indore_dahod_status": "60% complete, operational by 2026",
+        "railway_indore_manmad_km": 309,
+        "railway_indore_manmad_investment_crore": 18036,
+        "railway_indore_manmad_status": "approved",
+        "railway_indore_budni_km": 198,
+        "railway_indore_budni_status": "under implementation",
+        "railway_vande_bharat_routes": [
+          "Indore-Pune (planned)",
+          "Indore-Lucknow (planned)"
+        ],
+        "railway_investment_crore": 18036,
+        "dedicated_freight_corridor": false,
+        "expressway_connectivity_km": 150,
+        "highway_expansion_km": 200,
+        "airport_name": "Devi Ahilyabai Holkar Airport",
+        "airport_current_capacity_mppa": 4,
+        "airport_future_capacity_mppa": 5.5,
+        "airport_new_terminal_target": 2028,
+        "airport_runway_current_m": 2800,
+        "airport_runway_target_m": 3400,
+        "airport_daily_flights": 90,
+        "airport_daily_flights_target_2025": 100,
+        "airport_international_status": "operational but not formally recognized",
+        "airport_new_terminal": false,
+        "airport_expansion_planned": true,
+        "airport_capacity_mppa": 5.5,
+        "bullet_train_corridor": false
+      },
+      "sources": [
+        {
+          "data_point": "metro_project",
+          "source_name": "Wikipedia / ADB",
+          "url": "https://en.wikipedia.org/wiki/Indore_Metro",
+          "url2": "https://www.adb.org/projects/51356-001/main",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Phase 1 inaugurated May 31, 2025 by PM Modi. Total cost Rs 15,000 crore. ADB loan $190M, NDB loan $225M."
+        },
+        {
+          "data_point": "smart_city",
+          "source_name": "PIB / SmartCityIndore.org",
+          "url": "https://theprint.in/india/governance/indore-wins-national-smart-city-award-in-modi-govts-smart-city-mission-mp-is-best-state/1731441/",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Won National Smart City Award twice. Best Smart City jointly with Surat. All projects completed by June 2024."
+        }
+      ]
+    },
+    "migration_employment": {
+      "data": {
+        "population_growth_rate": 2.76,
+        "national_avg_growth_rate": 1.1,
+        "urban_unemployment_rate_india": 6.4,
+        "key_industries": [
+          "IT/ITES",
+          "Pharmaceuticals",
+          "Textiles",
+          "Food Processing",
+          "Automobile"
+        ],
+        "it_sez_present": true,
+        "special_economic_zones": [
+          "Crystal IT Park",
+          "Infocity"
+        ],
+        "cleanest_city_rank": "1st (7 times)"
+      },
+      "sources": [
+        {
+          "data_point": "population_growth",
+          "source_name": "MacroTrends",
+          "url": "https://www.macrotrends.net/global-metrics/cities/21278/indore/population",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Metro area grew 2.76% YoY (2023-2024)."
+        },
+        {
+          "data_point": "cleanest_city",
+          "source_name": "Swachh Survekshan",
+          "reliability": "HIGH",
+          "notes": "Indore has won India's cleanest city award 7 times consecutively."
+        }
+      ],
+      "data_gaps": [
+        "City-specific employment data",
+        "Migration inflow/outflow",
+        "IT sector job growth"
+      ]
+    },
+    "data_quality_summary": {
+      "high_reliability_data": [
+        "Population (MacroTrends)",
+        "Metro project (ADB/Wikipedia)",
+        "Smart City status (PIB)",
+        "NITI Health Index (NITI Aayog)",
+        "Real estate prices (99acres)",
+        "Literacy rate (Census 2011)",
+        "IIT/IIM presence (NIRF)"
+      ],
+      "medium_reliability_data": [
+        "Healthcare infrastructure (state-level)",
+        "Real estate market trends"
+      ],
+      "low_reliability_estimated_data": [
+        "Hotel count and hospitality data",
+        "Employment/migration city-level data"
+      ]
+    }
+  }
+}

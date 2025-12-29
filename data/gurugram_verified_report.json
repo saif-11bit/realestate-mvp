@@ -1,0 +1,457 @@
+{
+  "report_generated": "2025-12-29T14:51:43.623228",
+  "city": "Gurugram",
+  "state": "Haryana",
+  "population": 1318000,
+  "scores": {
+    "healthcare_score": 47.14,
+    "hospitality_score": 42.28,
+    "education_score": 39.53,
+    "real_estate_score": 75.17,
+    "future_infrastructure_score": 52.59,
+    "migration_score": 56.43,
+    "overall_score": 52.19
+  },
+  "verified_data": {
+    "metadata": {
+      "city": "Gurugram",
+      "state": "Haryana",
+      "data_compiled_date": "2024-12-29",
+      "data_quality_notes": "Data compiled from government sources, research reports, PropEquity, and verified third-party databases. Gurugram is a major NCR hub with exceptional corporate presence."
+    },
+    "population": {
+      "value": 1318000,
+      "unit": "metro area population",
+      "year": 2024,
+      "growth_rate_yoy": 3.5,
+      "district_population": 2100000,
+      "source": {
+        "name": "Census 2011 Projections / Indiacensus",
+        "url": "https://www.census2011.co.in/census/district/225-gurgaon.html",
+        "accessed_date": "2024-12-29",
+        "reliability": "HIGH",
+        "notes": "Metro area estimate based on 2011 census projections. District population 1.51M in 2011, grew 73.93% from 2001-2011."
+      }
+    },
+    "healthcare": {
+      "data": {
+        "hospital_beds_per_1000": 1.9,
+        "doctors_per_1000": 1.2,
+        "doctor_patient_ratio": "1:800",
+        "medical_colleges": 2,
+        "total_major_hospital_beds": 2575,
+        "niti_health_index_score": 53.51,
+        "niti_health_index_rank": "11th among larger states",
+        "aiims_present": false,
+        "world_class_hospitals": true,
+        "newsweek_ranked_hospitals": 2,
+        "jci_accredited_hospitals": 3,
+        "national_medical_institutes": [
+          "Medanta (Newsweek Top 150 Global)",
+          "Fortis FMRI (Newsweek Top 250)",
+          "Artemis (JCI Accredited)"
+        ],
+        "premier_medical_hub": true
+      },
+      "sources": [
+        {
+          "data_point": "medanta_beds",
+          "value": 1391,
+          "source_name": "Medanta Official",
+          "url": "https://www.medanta.org/hospitals-near-me/gurugram-hospital",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "43-acre campus, 1391 beds, 270+ ICU beds, 40 OTs, 900+ full-time doctors. Newsweek Top 150 World's Best Hospitals for 6 years."
+        },
+        {
+          "data_point": "fortis_fmri_beds",
+          "value": 330,
+          "source_name": "Fortis Healthcare",
+          "url": "https://www.fortishealthcare.com/location/fortis-memorial-research-institute-gurgaon",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "330 beds, 99 ICU beds, 15 OTs. Ranked 34th in Newsweek's World's Best Smart Hospitals 2024."
+        },
+        {
+          "data_point": "max_hospital_beds",
+          "value": 104,
+          "source_name": "Max Healthcare",
+          "url": "https://www.maxhealthcare.in/hospital-network/max-hospital-gurgaon",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "104+ beds, 290 doctors, 5 lakh+ patients treated. 16 ICU beds, 6 PICUs, 7 NICUs."
+        },
+        {
+          "data_point": "paras_health_beds",
+          "value": 300,
+          "source_name": "Paras Health",
+          "url": "https://www.parashospitals.com/gurugram",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "300 beds. Flagship institution since 2006."
+        },
+        {
+          "data_point": "artemis_beds",
+          "value": 350,
+          "source_name": "Artemis Hospital",
+          "url": "https://www.nivabupa.com/health-insurance-articles/best-hospitals-in-gurgaon.html",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "350+ beds, 400+ doctors, 12 centers of excellence. First JCI and NABH accredited hospital in Gurgaon."
+        },
+        {
+          "data_point": "niti_health_index",
+          "value": 53.51,
+          "source_name": "NITI Aayog Health Index / Tribune India",
+          "url": "https://www.tribuneindia.com/news/archive/haryanatribune/haryana-betters-health-index-score-ranks-12-794620",
+          "year": "2019-20",
+          "reliability": "HIGH",
+          "notes": "Haryana improved from 46.97 to 53.51, highest improvement (6.55 points) in India. Ranks 11th overall among larger states."
+        }
+      ]
+    },
+    "hospitality": {
+      "data": {
+        "total_hotels_estimated": 500,
+        "total_hotels_makemytrip": 500,
+        "total_hotels_oyo": 200,
+        "star_hotels_5star": 25,
+        "star_hotels_4star": 40,
+        "star_hotels_estimated": 100,
+        "average_occupancy_rate": 72,
+        "average_occupancy_rate_estimated": 72,
+        "tourism_type": "business_corporate",
+        "fortune_500_headquarters": 250,
+        "major_hotel_chains": [
+          "Taj",
+          "ITC",
+          "Marriott",
+          "Radisson",
+          "Hyatt",
+          "Oberoi",
+          "Leela"
+        ]
+      },
+      "sources": [
+        {
+          "data_point": "5_star_hotels",
+          "source_name": "TripAdvisor / Trip.com",
+          "url": "https://www.tripadvisor.in/Hotels-g297615-zfc5-Gurugram_Gurgaon_Gurgaon_District_Haryana-Hotels.html",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Multiple 5-star properties including ITC Grand Bharat, Taj City Centre, Oberoi, Leela Ambience. Business hotel hub."
+        },
+        {
+          "data_point": "hospitality_awards",
+          "source_name": "Hospitality Excellence Awards 2024",
+          "url": "https://www.hozpitalityexcellenceawards.com/india-winners/india-winners-2024",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Radisson Gurugram won multiple Gold awards. Strong hospitality ecosystem."
+        }
+      ],
+      "data_gaps": [
+        "Official hotel registry count",
+        "Exact occupancy rates"
+      ]
+    },
+    "education": {
+      "data": {
+        "universities_count": 8,
+        "aicte_approved_institutions": 22,
+        "aicte_approved_colleges": 22,
+        "total_engineering_colleges": 39,
+        "government_colleges": 3,
+        "private_colleges": 36,
+        "iit_present": false,
+        "nit_present": false,
+        "iit_delhi_distance_km": 25,
+        "literacy_rate_district": 84.7,
+        "literacy_rate_urban": 86.76,
+        "literacy_rate_state": 75.55,
+        "highest_literacy_in_state": true,
+        "naac_accredited_institutions": 5
+      },
+      "sources": [
+        {
+          "data_point": "aicte_approved",
+          "value": 22,
+          "source_name": "TargetStudy / Collegedunia",
+          "url": "https://targetstudy.com/colleges/aicte-approved-colleges-in-gurgaon.html",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "22 AICTE approved engineering colleges. 39 total engineering institutions. Top ranked: WCTM (Times Survey #1 in Gurugram)."
+        },
+        {
+          "data_point": "universities",
+          "source_name": "UniversityKart",
+          "url": "https://universitykart.com/articledetails/top-engineering-colleges-or-universities-in-gurgoan",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Major universities: Gurugram University (state), Amity University (NIRF ranked), GD Goenka, BML Munjal, Northcap University, SGT University."
+        },
+        {
+          "data_point": "literacy_rate",
+          "value": 84.7,
+          "source_name": "Census 2011 / CurrentAffairs Adda247",
+          "url": "https://currentaffairs.adda247.com/most-literate-district-in-haryana/",
+          "year": 2011,
+          "reliability": "HIGH",
+          "notes": "Gurugram is the most literate district in Haryana at 84.70%. Urban literacy 86.76%."
+        }
+      ]
+    },
+    "real_estate": {
+      "data": {
+        "avg_price_per_sqft_city": 10200,
+        "mg_road_price_sqft": 23400,
+        "golf_course_extension_price_sqft": 16250,
+        "dwarka_expressway_price_sqft": 10700,
+        "new_gurgaon_price_sqft": 10850,
+        "price_appreciation_yoy": 28,
+        "price_appreciation_5yr_dwarka_exp": 93,
+        "price_appreciation_3yr_nh8": 178.5,
+        "units_sold_2024": 106739,
+        "units_sold_q1_2025": 26685,
+        "sales_value_2024_crore": 107000,
+        "sales_growth_yoy": 66,
+        "sales_growth_q1_2025": 66,
+        "inventory_absorption_months": 16,
+        "luxury_segment_share": 26,
+        "ncr_market_share": 51,
+        "top_appreciation_3yr_mg_road": 160.3,
+        "prime_location_appreciation_2024": 18
+      },
+      "sources": [
+        {
+          "data_point": "property_prices",
+          "source_name": "99acres / NoBroker",
+          "url": "https://www.99acres.com/property-rates-and-price-trends-in-gurgaon-prffid",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Average Q1 2024: Rs 9,880-10,400/sqft. MG Road Rs 23,400/sqft (50% YoY). Golf Course Extension Rs 16,250/sqft."
+        },
+        {
+          "data_point": "sales_volume_2024",
+          "source_name": "PropEquity / Outlook Business",
+          "url": "https://www.outlookbusiness.com/news/housing-sales-in-gurugram-cross-rs-1-lakh-crore-mark-in-2024-propequity",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Housing sales crossed Rs 1.07 lakh crore in 2024. 1,06,739 units sold (up 66% from 64,314 in 2023). Gurugram contributes 51% of NCR sales."
+        },
+        {
+          "data_point": "price_appreciation",
+          "source_name": "Construction Week India / Geetanjali Homestate",
+          "url": "https://www.constructionweekonline.in/business/property-prices-soar-in-gurugram-according-to-geetanjali-homestate-report",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "28% price increase Q1 2024 vs Q1 2023. Dwarka Expressway +93% from 2019-2024. NH8 +178.5% in 3 years."
+        },
+        {
+          "data_point": "inventory_overhang",
+          "source_name": "RPRealty Plus / ANAROCK",
+          "url": "https://www.rprealtyplus.com/news-views/gurugram-most-active-residential-market-in-ncr-117304.html",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Inventory overhang at 16 months (Q3 2024). Gurgaon has 40%+ of NCR's available inventory."
+        }
+      ]
+    },
+    "future_infrastructure": {
+      "data": {
+        "rapid_metro_operational_km": 11.2,
+        "rapid_metro_stations": 11,
+        "rapid_metro_daily_ridership": 50000,
+        "rapid_metro_status": "operational",
+        "metro_phase_1_status": "operational",
+        "metro_phase_1_length_km": 11.2,
+        "metro_phase_2_length_km": 28.5,
+        "gurugram_metro_approved_km": 28.5,
+        "gurugram_metro_stations": 27,
+        "gurugram_metro_investment_crore": 5452,
+        "gurugram_metro_status": "approved",
+        "gurugram_metro_completion_target": 2027,
+        "new_metro_corridors_km": 30,
+        "new_metro_corridors_count": 2,
+        "new_metro_corridor_1_km": 17,
+        "new_metro_corridor_2_km": 13,
+        "rrts_gurugram_noida_km": 60,
+        "rrts_gurugram_noida_investment_crore": 15000,
+        "rrts_gurugram_noida_status": "proposed",
+        "delhi_alwar_rrts_planned": true,
+        "dwarka_expressway_km": 26.7,
+        "dwarka_expressway_status": "operational",
+        "delhi_gurgaon_expressway_km": 27.7,
+        "expressway_connectivity_km": 54.4,
+        "highway_expansion_km": 100,
+        "railway_investment_crore": 20452,
+        "airport_capacity_mppa": 100,
+        "airport_expansion_planned": true,
+        "airport_new_terminal": true,
+        "igi_airport_distance_km": 21,
+        "igi_airport_connectivity": "excellent",
+        "igi_terminal_3_accessible": true,
+        "global_city_investment_billion_usd": 15,
+        "global_city_area_acres": 1000,
+        "global_city_status": "under development",
+        "smart_city_features": [
+          "public_wifi",
+          "smart_poles",
+          "traffic_management",
+          "cctv_network"
+        ],
+        "metro_phases_approved": 3,
+        "bullet_train_corridor": false
+      },
+      "sources": [
+        {
+          "data_point": "rapid_metro",
+          "source_name": "Wikipedia / Swarajya Mag",
+          "url": "https://en.wikipedia.org/wiki/Rapid_Metro_Gurgaon",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "11.2 km operational from Shankar Chowk to Sector-56. 11 stations. 50,000 daily passengers. DMRC operated since 2019."
+        },
+        {
+          "data_point": "gurugram_metro",
+          "source_name": "Housivity / Swarajya",
+          "url": "https://housivity.com/blog/gurugram-metro-expansion-cost-benefits-and-real-estate-impact",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "28.50 km approved June 2023 (HUDA City Centre to Cyber City). 27 elevated stations. Target completion mid-2027."
+        },
+        {
+          "data_point": "new_metro_corridors",
+          "source_name": "Swarajya Mag / India Infra Hub",
+          "url": "https://swarajyamag.com/infrastructure/major-metro-expansion-in-gurugram-two-new-corridors-approved-enhancing-rapid-transit-across-key-areas",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Two new corridors approved: 17 km (Bhondsi-Railway Station via Sohna Road) and 13 km (Golf Course Extension-Sector 5)."
+        },
+        {
+          "data_point": "rrts_expansion",
+          "source_name": "Swarajya Mag / Metro Rail Today",
+          "url": "https://metrorailtoday.com/news/india-to-develop-a-new-rrts-corridor-worth-15000-crore-to-connect-noida-with-gurugram",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "60 km Gurugram-Greater Noida RRTS proposed at Rs 15,000 crore. 160 km/h speed. Delhi-Alwar RRTS also planned."
+        },
+        {
+          "data_point": "global_city",
+          "source_name": "Census Projects / Construction World",
+          "url": "https://censusprojects.com/global-city-gurgaon-infrastructure-investment/",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "1000+ acres across Sectors 36, 36B, 37, 37B on Dwarka Expressway. $1B infrastructure cost. $15B investment potential."
+        },
+        {
+          "data_point": "expressways",
+          "source_name": "Wikipedia / Rome2Rio",
+          "url": "https://en.wikipedia.org/wiki/Indira_Gandhi_International_Airport",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "26.7 km Dwarka Expressway (NH-248BB) and 27.7 km Delhi-Gurgaon Expressway (NH48) provide excellent connectivity."
+        }
+      ]
+    },
+    "migration_employment": {
+      "data": {
+        "population_growth_rate": 3.5,
+        "national_avg_growth_rate": 1.1,
+        "fortune_500_companies": 250,
+        "it_companies": 500,
+        "startups": 200,
+        "it_exports_share_india_percent": 13,
+        "major_employers": [
+          "TCS",
+          "HCL",
+          "Tech Mahindra",
+          "Accenture",
+          "Google",
+          "Microsoft",
+          "IBM",
+          "Deloitte",
+          "Wipro"
+        ],
+        "avg_it_salary_premium_percent": 22,
+        "linkedin_fortune500_jobs": 279,
+        "corporate_hub_ranking": "top_3_india",
+        "job_sectors": [
+          "IT",
+          "BPO",
+          "KPO",
+          "LPO",
+          "BFSI",
+          "Manufacturing",
+          "Consulting"
+        ],
+        "coworking_spaces": "extensive"
+      },
+      "sources": [
+        {
+          "data_point": "fortune_500_presence",
+          "source_name": "Q3Tech / Maxicus",
+          "url": "https://www.q3tech.com/blogs/it-companies-in-gurgaon/",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "250+ Fortune 500 companies have local offices. Headquarters for many India's largest companies."
+        },
+        {
+          "data_point": "it_sector",
+          "source_name": "Q3Tech / NASSCOM",
+          "url": "https://www.q3tech.com/blogs/it-companies-in-gurgaon/",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "500+ IT companies, 200+ startups. Contributes 13% of India's IT exports. Avg IT salary 22% above national average."
+        },
+        {
+          "data_point": "job_market",
+          "source_name": "Maxicus",
+          "url": "https://maxicus.com/why-gurugram-is-a-hotspot-for-job-seekers-and-employers-in-2025/",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Strong BPO/KPO growth, AI-powered roles emerging. Demand for multilingual professionals. Startup hub with business-friendly policies."
+        },
+        {
+          "data_point": "major_employers",
+          "source_name": "Delta IT Network",
+          "url": "https://www.deltaitnetwork.com/blog/top-it-companies-in-gurgaon-for-2025-26/",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "TCS (607,900+ employees), HCLTech (225,900+), Tech Mahindra (138,500+), Accenture (738,000+ globally). Major Google, Microsoft presence."
+        }
+      ],
+      "data_gaps": [
+        "City-specific unemployment rate",
+        "Exact migration inflow data",
+        "SIM activations city-level"
+      ]
+    },
+    "data_quality_summary": {
+      "high_reliability_data": [
+        "Population (Census projections)",
+        "Real estate prices and sales (PropEquity, 99acres)",
+        "Metro and RRTS projects (PIB, HMRTC)",
+        "Healthcare facilities (Hospital official sites)",
+        "AICTE institutions (Collegedunia)",
+        "Fortune 500 presence (Industry reports)",
+        "Literacy rate (Census 2011)"
+      ],
+      "medium_reliability_data": [
+        "Healthcare beds per capita (aggregated from hospitals)",
+        "Hotel count (aggregated from booking sites)",
+        "Occupancy rates (industry estimates)",
+        "IT company count (industry reports)"
+      ],
+      "low_reliability_estimated_data": [
+        "Exact population 2024 (census postponed)",
+        "City-level employment statistics"
+      ],
+      "missing_data_requiring_paid_sources": [
+        "CBRE/Knight Frank Gurugram quarterly reports",
+        "Exact hotel registry from tourism department",
+        "Official employment surveys"
+      ]
+    }
+  }
+}

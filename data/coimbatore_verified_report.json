@@ -1,0 +1,359 @@
+{
+  "report_generated": "2025-12-29T14:51:43.622860",
+  "city": "Coimbatore",
+  "state": "Tamil Nadu",
+  "population": 3084000,
+  "scores": {
+    "healthcare_score": 57.0,
+    "hospitality_score": 31.36,
+    "education_score": 33.95,
+    "real_estate_score": 52.81,
+    "future_infrastructure_score": 52.5,
+    "migration_score": 51.38,
+    "overall_score": 46.5
+  },
+  "verified_data": {
+    "metadata": {
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "data_compiled_date": "2024-12-09",
+      "data_quality_notes": "Data compiled from government sources. Coimbatore is the Manchester of South India, major industrial and educational hub in Tamil Nadu."
+    },
+    "population": {
+      "value": 3084000,
+      "unit": "metro area population",
+      "year": 2024,
+      "growth_rate_yoy": 2.49,
+      "district_population": 3458045,
+      "source": {
+        "name": "MacroTrends",
+        "url": "https://www.macrotrends.net/global-metrics/cities/21219/coimbatore/population",
+        "accessed_date": "2024-12-09",
+        "reliability": "HIGH",
+        "notes": "Metro area estimate 2024. Second most populous metro in Tamil Nadu after Chennai."
+      }
+    },
+    "healthcare": {
+      "data": {
+        "hospital_beds_per_1000": 2.5,
+        "state_total_beds": 180000,
+        "niti_health_index_score": 73.04,
+        "niti_health_index_rank": "2nd among larger states",
+        "aiims_present": false,
+        "aiims_nearest": "AIIMS Madurai (proposed)",
+        "psg_imsr_present": true,
+        "psg_imsr_nirf_rank": 41,
+        "psg_imsr_naac_grade": "A+",
+        "psg_imsr_jci_certified": true,
+        "psg_imsr_notes": "First hospital in Tamil Nadu with JCI Prime certification",
+        "kmch_present": true,
+        "kmch_nabh_accredited": true,
+        "kmch_beds": 1000,
+        "kmch_rank_week": 1,
+        "coimbatore_medical_college_present": true,
+        "coimbatore_medical_college_type": "Government",
+        "major_hospitals_coimbatore": [
+          {
+            "name": "Coimbatore Medical College Hospital",
+            "beds": 2000,
+            "type": "Government"
+          },
+          {
+            "name": "PSG Hospitals",
+            "beds": 1400,
+            "type": "Private",
+            "jci": true,
+            "naac": "A+",
+            "nirf": 41
+          },
+          {
+            "name": "KMCH (Kovai Medical Center)",
+            "beds": 1000,
+            "type": "Private",
+            "nabh": true
+          },
+          {
+            "name": "G. Kuppuswamy Naidu Memorial Hospital",
+            "beds": 600,
+            "type": "Private"
+          }
+        ],
+        "premier_medical_institutes": [
+          "PSG IMSR (NIRF #41, NAAC A+, JCI)",
+          "KMCH (NABH)"
+        ],
+        "medical_tourism_hub": true
+      },
+      "sources": [
+        {
+          "data_point": "hospital_beds_per_1000",
+          "value": 2.5,
+          "source_name": "Tamil Nadu State Health Profile",
+          "year": 2023,
+          "reliability": "HIGH",
+          "notes": "Tamil Nadu has best healthcare infrastructure in India. Coimbatore is major medical tourism hub."
+        },
+        {
+          "data_point": "niti_health_index_score",
+          "value": 73.04,
+          "source_name": "NITI Aayog State Health Index 5th Edition",
+          "url": "https://www.geeksforgeeks.org/upsc/niti-aayog-health-index-2023/",
+          "original_source": "https://social.niti.gov.in/hlt-ranking",
+          "year": "2020-21",
+          "reliability": "HIGH",
+          "notes": "Tamil Nadu ranks 2nd among larger states after Kerala (74.01). Score: 73.04."
+        }
+      ]
+    },
+    "hospitality": {
+      "data": {
+        "total_hotels_makemytrip": 386,
+        "total_hotels_oyo": 30,
+        "star_hotels_estimated": 50,
+        "total_hotels_estimated": 400,
+        "average_occupancy_rate_estimated": 65,
+        "tourism_type": "business_industrial",
+        "tourism_notes": "Coimbatore is major industrial/business hub, not primary tourist destination. Nearby Ooty is major tourist draw."
+      },
+      "sources": [
+        {
+          "data_point": "total_hotels_makemytrip",
+          "value": 386,
+          "source_name": "MakeMyTrip",
+          "url": "https://www.makemytrip.com/hotels/coimbatore-hotels.html",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "386+ hotels listed on MakeMyTrip for Coimbatore."
+        }
+      ],
+      "data_gaps": [
+        "Ministry classified hotel count",
+        "Verified occupancy rates",
+        "Business traveler statistics"
+      ]
+    },
+    "education": {
+      "data": {
+        "aicte_approved_colleges": 65,
+        "universities_count": 4,
+        "iit_present": false,
+        "nit_present": false,
+        "nit_nearest": "NIT Trichy (180 km)",
+        "iim_present": false,
+        "premier_colleges": [
+          "PSG College of Technology",
+          "Coimbatore Institute of Technology",
+          "Kumaraguru College of Technology",
+          "Karunya University"
+        ],
+        "psg_tech_nirf_rank": 56,
+        "literacy_rate_district": 83.98,
+        "literacy_rate_urban": 87.82,
+        "literacy_rate_male": 89.06,
+        "literacy_rate_female": 78.92,
+        "engineering_hub": true
+      },
+      "sources": [
+        {
+          "data_point": "aicte_colleges",
+          "value": 65,
+          "source_name": "Zollege / AICTE",
+          "url": "https://zollege.in/engineering/coimbatore/aicte-approved-colleges",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "65+ AICTE approved engineering colleges in Coimbatore region."
+        },
+        {
+          "data_point": "literacy_rate",
+          "value": 83.98,
+          "source_name": "Census 2011",
+          "url": "https://www.census2011.co.in/census/district/32-coimbatore.html",
+          "year": 2011,
+          "reliability": "HIGH",
+          "notes": "District literacy 83.98%, Urban 87.82%. Above Tamil Nadu average of 80.09%."
+        }
+      ]
+    },
+    "real_estate": {
+      "data": {
+        "avg_price_per_sqft_city": 5500,
+        "saravanampatti_price_sqft": 5750,
+        "saravanampatti_range": "4550-6750",
+        "rs_puram_price_sqft": 7479,
+        "kovaipudur_price_sqft": 6250,
+        "kovaipudur_range": "5100-7400",
+        "kurichi_price_sqft": 4299,
+        "affordable_areas_price": 1500,
+        "price_appreciation_1yr_saravanampatti": 30.7,
+        "price_appreciation_3yr_saravanampatti": 35.3,
+        "price_appreciation_5yr_kovaipudur_land": 146.4,
+        "rental_yield_kovaipudur": 6.0,
+        "industrial_hub": true,
+        "tier2_growth_hub": true,
+        "tidel_park_sqft": 914000,
+        "tidel_park_expansion_sqft": 1700000,
+        "tidel_park_acres": 9.5,
+        "tidel_park_expansion_acres": 9,
+        "kochi_coimbatore_warehousing_corridor": true,
+        "warehousing_growth_hub": true,
+        "lt_bypass_commercial_corridor": true,
+        "singanallur_industrial_node": true,
+        "jll_tier2_warehousing_focus": true
+      },
+      "sources": [
+        {
+          "data_point": "property_prices",
+          "source_name": "99acres Property Rates",
+          "url": "https://www.99acres.com/property-rates-and-price-trends-in-coimbatore-prffid",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "RS Puram premium at Rs 7,479/sqft. Saravanampatti Rs 5,750/sqft (30.7% annual growth)."
+        },
+        {
+          "data_point": "market_trends",
+          "source_name": "The Realty Today",
+          "url": "https://therealtytoday.com/news/coimbatore-property-prices-2024",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Median home price Rs 5,500/sqft with 8% appreciation. Strong rental yields."
+        },
+        {
+          "data_point": "tidel_park",
+          "source_name": "Wikipedia / TIDEL Park",
+          "url": "https://en.wikipedia.org/wiki/TIDEL_Park",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "TIDEL Park Coimbatore: 914,000 sqft on 9.5 acres (2010). Expansion planned: 1.7M sqft total on additional 9 acres."
+        },
+        {
+          "data_point": "warehousing_corridor",
+          "source_name": "JLL / Savills India",
+          "url": "https://www.jll.com/en-in/insights/leading-the-upswing",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Kochi-Coimbatore corridor identified as high-growth warehousing corridor. L&T Bypass emerging as key commercial corridor."
+        }
+      ]
+    },
+    "future_infrastructure": {
+      "data": {
+        "metro_status": "DPR submitted",
+        "metro_proposed_length_km": 39,
+        "metro_proposed_stations": 32,
+        "metro_proposed_cost_crore": 10740,
+        "metro_phase_1_status": "awaiting central approval",
+        "metro_land_acquisition_status": "underway",
+        "metro_phases_approved": 0,
+        "chennai_salem_expressway_status": "DPR approved, land issues",
+        "coimbatore_karur_expressway_status": "DPR submitted Feb 2024",
+        "coimbatore_karur_expressway_km": 180,
+        "nh544_salem_kochi_km": 340,
+        "expressway_connectivity_km": 180,
+        "highway_expansion_km": 200,
+        "railway_investment_crore": 3000,
+        "dedicated_freight_corridor": false,
+        "airport_name": "Coimbatore International Airport",
+        "airport_current_capacity_mppa": 2,
+        "airport_current_traffic_mppa": 3,
+        "airport_future_capacity_mppa": 15,
+        "airport_expansion_cost_crore": 2000,
+        "airport_runway_extension_planned": true,
+        "airport_runway_current_m": 2990,
+        "airport_runway_target_m": 3800,
+        "airport_land_acquisition_acres": 632,
+        "airport_new_terminal": true,
+        "airport_expansion_planned": true,
+        "airport_capacity_mppa": 15,
+        "bullet_train_corridor": false
+      },
+      "sources": [
+        {
+          "data_point": "metro_project",
+          "source_name": "The Metro Rail Guy / Wikipedia",
+          "url": "https://themetrorailguy.com/coimbatore-metro-information-route-maps-fares-tenders-updates/",
+          "url2": "https://en.wikipedia.org/wiki/Coimbatore_Metro",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "DPR submitted Feb 2024. 39 km, 32 stations, Rs 10,740 crore. Awaiting central approval. Land survey started."
+        },
+        {
+          "data_point": "airport_expansion",
+          "source_name": "Swarajya / Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coimbatore_International_Airport",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Current traffic 3 MPPA exceeds 2 MPPA capacity. Rs 2000 crore expansion for 15 MPPA. Runway extension to 3800m for A380."
+        },
+        {
+          "data_point": "expressway",
+          "source_name": "The Metro Rail Guy",
+          "url": "https://themetrorailguy.com/nhai-coimbatore-karur-expressway-route-map-status-update-tenders/",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Coimbatore-Karur Expressway DPR submitted Feb 2024. 180 km greenfield highway under Bharatmala."
+        }
+      ]
+    },
+    "migration_employment": {
+      "data": {
+        "population_growth_rate": 2.49,
+        "national_avg_growth_rate": 1.1,
+        "urban_unemployment_rate_india": 6.4,
+        "key_industries": [
+          "Textiles",
+          "Engineering",
+          "IT/ITES",
+          "Automobile",
+          "Pumps & Motors"
+        ],
+        "textile_hub": true,
+        "pump_industry_share_india": 50,
+        "it_parks_present": true,
+        "special_economic_zones": [
+          "TIDEL Park",
+          "Coimbatore IT SEZ"
+        ],
+        "manchester_of_south_india": true
+      },
+      "sources": [
+        {
+          "data_point": "population_growth",
+          "source_name": "MacroTrends",
+          "url": "https://www.macrotrends.net/global-metrics/cities/21219/coimbatore/population",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Metro area grew 2.49% YoY (2023-2024). Strong growth driven by industrial expansion."
+        },
+        {
+          "data_point": "industry_presence",
+          "source_name": "Wikipedia / Industry Reports",
+          "reliability": "HIGH",
+          "notes": "Coimbatore produces 50% of India's pumps and motors. Major textile hub - 'Manchester of South India'."
+        }
+      ],
+      "data_gaps": [
+        "City-specific employment data",
+        "Migration inflow/outflow",
+        "IT sector job growth"
+      ]
+    },
+    "data_quality_summary": {
+      "high_reliability_data": [
+        "Population (MacroTrends)",
+        "Metro DPR status (Official sources)",
+        "NITI Health Index (NITI Aayog)",
+        "Real estate prices (99acres)",
+        "Literacy rate (Census 2011)",
+        "Airport expansion plans (Wikipedia/Swarajya)"
+      ],
+      "medium_reliability_data": [
+        "Healthcare infrastructure (state-level)",
+        "Metro approval timeline"
+      ],
+      "low_reliability_estimated_data": [
+        "Hotel count and hospitality data",
+        "Employment/migration city-level data"
+      ]
+    }
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "report_generated": "2025-12-29T14:51:43.622260",
+  "city": "Nagpur",
+  "state": "Maharashtra",
+  "population": 3106000,
+  "scores": {
+    "healthcare_score": 45.61,
+    "hospitality_score": 29.59,
+    "education_score": 43.15,
+    "real_estate_score": 51.88,
+    "future_infrastructure_score": 86.31,
+    "migration_score": 48.63,
+    "overall_score": 50.86
+  },
+  "verified_data": {
+    "metadata": {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "data_compiled_date": "2024-12-09",
+      "data_quality_notes": "Data compiled from government sources. Nagpur is the winter capital of Maharashtra, center of MIHAN project, and connected via Samruddhi Mahamarg."
+    },
+    "population": {
+      "value": 3106000,
+      "unit": "metro area population",
+      "year": 2024,
+      "growth_rate_yoy": 1.94,
+      "district_population": 4653570,
+      "source": {
+        "name": "MacroTrends",
+        "url": "https://www.macrotrends.net/global-metrics/cities/21347/nagpur/population",
+        "accessed_date": "2024-12-09",
+        "reliability": "HIGH",
+        "notes": "Metro area estimate 2024. District population from Census 2011."
+      }
+    },
+    "healthcare": {
+      "data": {
+        "hospital_beds_per_1000": 1.1,
+        "state_total_beds": 150000,
+        "niti_health_index_score": 63.99,
+        "niti_health_index_rank": "3rd among larger states",
+        "aiims_present": true,
+        "aiims_location": "AIIMS Nagpur (operational since 2018)",
+        "major_hospitals_nagpur": [
+          {
+            "name": "Government Medical College & Hospital",
+            "beds": 1800,
+            "founded": 1947
+          },
+          {
+            "name": "AIIMS Nagpur",
+            "beds": 750,
+            "founded": 2018
+          },
+          {
+            "name": "Lata Mangeshkar Hospital",
+            "beds": 500
+          }
+        ]
+      },
+      "sources": [
+        {
+          "data_point": "hospital_beds_per_1000",
+          "value": 1.1,
+          "source_name": "Maharashtra State Health Profile",
+          "year": 2023,
+          "reliability": "HIGH",
+          "notes": "State-level data. Maharashtra has good healthcare infrastructure above national average."
+        },
+        {
+          "data_point": "niti_health_index_score",
+          "value": 63.99,
+          "source_name": "NITI Aayog State Health Index 5th Edition",
+          "url": "https://www.geeksforgeeks.org/upsc/niti-aayog-health-index-2023/",
+          "original_source": "https://social.niti.gov.in/hlt-ranking",
+          "year": "2020-21",
+          "reliability": "HIGH",
+          "notes": "Maharashtra ranks 3rd among larger states after Kerala (74.01) and Andhra Pradesh (65.13)."
+        },
+        {
+          "data_point": "aiims_nagpur",
+          "source_name": "AIIMS Nagpur Official",
+          "url": "https://aiimsnagpur.edu.in/",
+          "reliability": "HIGH",
+          "notes": "AIIMS Nagpur established 2018, part of 6 new AIIMS under PMSSY Phase-III."
+        }
+      ]
+    },
+    "hospitality": {
+      "data": {
+        "total_hotels_makemytrip": 331,
+        "total_hotels_oyo": 25,
+        "star_hotels_estimated": 40,
+        "total_hotels_estimated": 350,
+        "average_occupancy_rate_estimated": 60,
+        "tourism_type": "business_commercial",
+        "tourism_notes": "Nagpur is a major business hub, winter capital of Maharashtra, not primary tourist destination"
+      },
+      "sources": [
+        {
+          "data_point": "total_hotels_makemytrip",
+          "value": 331,
+          "source_name": "MakeMyTrip",
+          "url": "https://www.makemytrip.com/hotels/nagpur-hotels.html",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "331+ hotels listed on MakeMyTrip for Nagpur."
+        }
+      ],
+      "data_gaps": [
+        "Ministry classified hotel count",
+        "Verified occupancy rates",
+        "Business traveler statistics"
+      ]
+    },
+    "education": {
+      "data": {
+        "aicte_approved_colleges": 49,
+        "universities_count": 5,
+        "iit_present": false,
+        "nit_present": true,
+        "nit_name": "VNIT Nagpur (Visvesvaraya National Institute of Technology)",
+        "vnit_nirf_rank": 44,
+        "vnit_established": 1960,
+        "iiit_present": true,
+        "iiit_name": "IIIT Nagpur",
+        "iim_present": false,
+        "literacy_rate_district": 88.39,
+        "literacy_rate_urban": 91.37,
+        "literacy_rate_male": 92.09,
+        "literacy_rate_female": 84.51,
+        "district_literacy_rank_state": "2nd in Maharashtra",
+        "district_literacy_rank_india": "29th out of 640"
+      },
+      "sources": [
+        {
+          "data_point": "aicte_colleges",
+          "value": 49,
+          "source_name": "Collegedunia / AICTE",
+          "url": "https://collegedunia.com/engineering/nagpur/aicte-approved-colleges",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "49 AICTE approved engineering colleges in Nagpur. 41 private, 8 government."
+        },
+        {
+          "data_point": "vnit_nirf_rank",
+          "value": 44,
+          "source_name": "NIRF 2025",
+          "url": "https://vnit.ac.in/",
+          "year": 2025,
+          "reliability": "HIGH",
+          "notes": "VNIT Nagpur ranked #44 in Engineering. Established 1960, one of oldest NITs."
+        },
+        {
+          "data_point": "literacy_rate",
+          "value": 88.39,
+          "source_name": "Census 2011",
+          "url": "https://www.census2011.co.in/census/district/343-nagpur.html",
+          "year": 2011,
+          "reliability": "HIGH",
+          "notes": "District literacy 88.39%, Urban 91.37%. Ranks 2nd in Maharashtra, 29th in India."
+        }
+      ]
+    },
+    "real_estate": {
+      "data": {
+        "avg_price_per_sqft_city": 3500,
+        "wardha_road_price_sqft": 4725,
+        "wardha_road_range": "933-13333",
+        "civil_lines_price_sqft": 10394,
+        "lakadganj_price_sqft": 6950,
+        "lakadganj_range": "5850-8050",
+        "mankapur_price_sqft": 4050,
+        "mankapur_range": "3450-4550",
+        "trimurti_nagar_price_sqft": 5860,
+        "affordable_areas_price": 1500,
+        "price_appreciation_1yr_civil_lines": 30.35,
+        "price_appreciation_3yr_mankapur": 24.6,
+        "mihan_sez_development": true,
+        "tier2_growth_hub": true,
+        "land_acquisition_hotspot": true,
+        "jll_office_stock_sqft_million": 3.8,
+        "jll_office_stock_2027_sqft_million": 4.8,
+        "jll_office_growth_percent": 26,
+        "jll_office_vacancy_rate": 13,
+        "jll_office_rental_range": "60-90",
+        "jll_office_premium_rental_south": "90-120",
+        "jll_retail_stock_sqft_million": 3.0,
+        "jll_retail_stock_2027_sqft_million": 3.8,
+        "jll_retail_growth_percent": 27,
+        "jll_retail_vacancy_rate": "10-15",
+        "jll_retail_rental_range": "100-150",
+        "jll_logistics_stock_sqft_million": 12.9,
+        "jll_logistics_rental_range": "14-22",
+        "nagpur_wardha_mega_logistics_hub_acres": 1500
+      },
+      "sources": [
+        {
+          "data_point": "property_prices",
+          "source_name": "99acres Property Rates",
+          "url": "https://www.99acres.com/property-rates-and-price-trends-in-nagpur-prffid",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Civil Lines premium area at Rs 10,394/sqft (30.35% annual growth). Average city price Rs 3,500/sqft."
+        },
+        {
+          "data_point": "mihan_impact",
+          "source_name": "MIHAN SEZ / MADC",
+          "url": "https://www.mihansez.org/",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "MIHAN SEZ driving real estate growth. Major investment destination."
+        },
+        {
+          "data_point": "jll_commercial_data",
+          "source_name": "JLL Beyond the Metros Report",
+          "url": "https://thelivenagpur.com/2025/12/07/nagpur-real-estate-market-central-indias-growth-engine-powered-by-infrastructure-and-economic-transformation-jll/",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Office: 3.8M sqft (2024) to 4.8M sqft (2027), 26% growth. Retail: 3.0M to 3.8M sqft, 27% growth. Logistics: 12.9M sqft. Nagpur-Wardha Mega Logistics Hub (1,500 acres) planned."
+        }
+      ]
+    },
+    "future_infrastructure": {
+      "data": {
+        "metro_phase_1_length_km": 38.22,
+        "metro_phase_1_stations": 37,
+        "metro_phase_1_status": "operational",
+        "metro_phase_1_operational_date": "2019-03-08",
+        "metro_phase_1_completed_date": "2022-12-11",
+        "metro_phase_2_length_km": 43.8,
+        "metro_phase_2_status": "under construction",
+        "metro_phase_2_completion_target": 2028,
+        "metro_phases_approved": 2,
+        "samruddhi_mahamarg_connected": true,
+        "samruddhi_mahamarg_length_km": 701,
+        "samruddhi_mahamarg_status": "fully operational",
+        "samruddhi_mahamarg_completion_date": "2025-06-05",
+        "expressway_connectivity_km": 701,
+        "highway_expansion_km": 750,
+        "railway_investment_crore": 5000,
+        "dedicated_freight_corridor": true,
+        "western_dfc_connected": true,
+        "airport_name": "Dr. Babasaheb Ambedkar International Airport",
+        "airport_current_capacity_mppa": 4,
+        "airport_future_capacity_mppa": 30,
+        "airport_expansion_status": "GMR upgrade underway",
+        "airport_investment_crore": 2581,
+        "airport_new_terminal": true,
+        "airport_expansion_planned": true,
+        "airport_capacity_mppa": 14,
+        "mihan_cargo_hub": true,
+        "bullet_train_corridor": false
+      },
+      "sources": [
+        {
+          "data_point": "metro_phase_1",
+          "source_name": "Wikipedia / Nagpur Metro Official",
+          "url": "https://en.wikipedia.org/wiki/Nagpur_Metro",
+          "url2": "https://www.metrorailnagpur.com/",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Phase 1 (38.22 km, 37 stations) fully operational since Dec 2022. Phase 2 (43.8 km) under construction."
+        },
+        {
+          "data_point": "samruddhi_mahamarg",
+          "source_name": "Maharashtra Samruddhi Mahamarg / Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mumbai\u2013Nagpur_Expressway",
+          "url2": "https://mahasamruddhimahamarg.com/",
+          "year": 2025,
+          "reliability": "HIGH",
+          "notes": "701 km Mumbai-Nagpur Expressway fully operational June 2025. Reduces travel time to 8 hours."
+        },
+        {
+          "data_point": "airport_expansion",
+          "source_name": "PIB / GMR Airports",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2063527",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "GMR-led upgrade started Oct 2024. Rs 2,581 crore investment. Ultimate capacity 30 MPPA."
+        }
+      ]
+    },
+    "migration_employment": {
+      "data": {
+        "population_growth_rate": 1.94,
+        "national_avg_growth_rate": 1.1,
+        "urban_unemployment_rate_india": 6.4,
+        "key_industries": [
+          "IT/ITES",
+          "Logistics",
+          "Aerospace",
+          "Manufacturing",
+          "Textiles"
+        ],
+        "it_sez_present": true,
+        "special_economic_zones": [
+          "MIHAN SEZ",
+          "IT/ITES SEZ"
+        ],
+        "logistics_hub": true,
+        "central_india_hub": true
+      },
+      "sources": [
+        {
+          "data_point": "population_growth",
+          "source_name": "MacroTrends",
+          "url": "https://www.macrotrends.net/global-metrics/cities/21347/nagpur/population",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Metro area grew 1.94% YoY (2023-2024)."
+        }
+      ],
+      "data_gaps": [
+        "City-specific employment data",
+        "Migration inflow/outflow",
+        "IT sector job growth"
+      ]
+    },
+    "data_quality_summary": {
+      "high_reliability_data": [
+        "Population (MacroTrends)",
+        "Metro status (Wikipedia/Official)",
+        "Samruddhi Mahamarg (Official)",
+        "NITI Health Index (NITI Aayog)",
+        "Real estate prices (99acres)",
+        "Literacy rate (Census 2011)",
+        "VNIT/IIIT presence (NIRF)"
+      ],
+      "medium_reliability_data": [
+        "Healthcare infrastructure (state-level)",
+        "Airport expansion timelines"
+      ],
+      "low_reliability_estimated_data": [
+        "Hotel count and hospitality data",
+        "Employment/migration city-level data"
+      ]
+    }
+  }
+}

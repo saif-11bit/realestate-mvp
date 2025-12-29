@@ -1,0 +1,398 @@
+{
+  "report_generated": "2025-12-29T14:51:43.621723",
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "population": 4309000,
+  "scores": {
+    "healthcare_score": 35.29,
+    "hospitality_score": 41.47,
+    "education_score": 40.2,
+    "real_estate_score": 73.06,
+    "future_infrastructure_score": 71.81,
+    "migration_score": 51.03,
+    "overall_score": 52.15
+  },
+  "verified_data": {
+    "metadata": {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "data_compiled_date": "2024-12-09",
+      "data_quality_notes": "Data compiled from government sources. Jaipur is a UNESCO World Heritage City and major tourist destination."
+    },
+    "population": {
+      "value": 4309000,
+      "unit": "metro area population",
+      "year": 2024,
+      "growth_rate_yoy": 2.42,
+      "district_population": 6626178,
+      "source": {
+        "name": "MacroTrends",
+        "url": "https://www.macrotrends.net/global-metrics/cities/21280/jaipur/population",
+        "accessed_date": "2024-12-09",
+        "reliability": "HIGH",
+        "notes": "Metro area estimate 2024. One of fastest growing mega cities with 4.5% annual avg growth."
+      }
+    },
+    "healthcare": {
+      "data": {
+        "hospital_beds_per_1000": 0.82,
+        "state_total_beds": 93176,
+        "state_bed_gap": 304336,
+        "niti_health_index_score": 37.35,
+        "niti_health_index_rank": "15th among larger states",
+        "niti_incremental_performance": "Top 3 in improvement",
+        "aiims_present": true,
+        "aiims_location": "AIIMS Jodhpur",
+        "major_hospitals_jaipur": [
+          {
+            "name": "SMS Hospital",
+            "beds": 6251,
+            "founded": 1973
+          },
+          {
+            "name": "Santokba Durlabhji Memorial Hospital",
+            "beds": 551
+          },
+          {
+            "name": "Narayana Multi-speciality Hospital",
+            "beds": 330
+          }
+        ]
+      },
+      "sources": [
+        {
+          "data_point": "hospital_beds_per_1000",
+          "value": 0.82,
+          "source_name": "HospaccX Consulting / National Health Profile",
+          "url": "https://hospaccxconsulting.com/healthcare-scenario-of-rajasthan-2023/",
+          "year": 2023,
+          "reliability": "HIGH",
+          "notes": "State-level data. Rajasthan has 0.82 beds/1000, slightly above national avg of 0.79"
+        },
+        {
+          "data_point": "niti_health_index_score",
+          "value": 37.35,
+          "source_name": "NITI Aayog State Health Index 5th Edition",
+          "url": "https://www.geeksforgeeks.org/upsc/niti-aayog-health-index-2023/",
+          "original_source": "https://social.niti.gov.in/hlt-ranking",
+          "year": "2020-21",
+          "reliability": "HIGH",
+          "notes": "Rajasthan ranks 15th. Falls in 'Aspirants' category. BUT ranks Top 3 in incremental improvement."
+        },
+        {
+          "data_point": "sms_hospital",
+          "source_name": "HospaccX Consulting",
+          "url": "https://hospaccxconsulting.com/healthcare-scenario-of-rajasthan-2023/",
+          "reliability": "HIGH",
+          "notes": "SMS Hospital Jaipur is one of largest in India with 6,251 beds."
+        }
+      ]
+    },
+    "hospitality": {
+      "data": {
+        "total_hotels_makemytrip": 1250,
+        "total_hotels_ixigo": 1165,
+        "total_hotels_oyo": 40,
+        "star_hotels_estimated": 150,
+        "total_hotels_estimated": 1250,
+        "average_occupancy_rate_estimated": 70,
+        "avg_hotel_price_3star_usd": 29,
+        "avg_hotel_price_4star_usd": 63,
+        "avg_hotel_price_5star_usd": 132,
+        "avg_hotel_price_oyo_inr": 979,
+        "unesco_world_heritage": true,
+        "heritage_site_name": "Jaipur City (inscribed 2019)",
+        "major_tourist_attractions": [
+          "Amber Fort",
+          "Hawa Mahal",
+          "City Palace",
+          "Jantar Mantar"
+        ],
+        "tourism_type": "heritage_leisure",
+        "tourism_notes": "Major tourist destination - Pink City, part of Golden Triangle"
+      },
+      "sources": [
+        {
+          "data_point": "total_hotels_makemytrip",
+          "value": 1250,
+          "source_name": "MakeMyTrip",
+          "url": "https://www.makemytrip.com/hotels/jaipur-hotels.html",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "1,250+ hotels listed on MakeMyTrip for Jaipur."
+        },
+        {
+          "data_point": "total_hotels_ixigo",
+          "value": 1165,
+          "source_name": "Ixigo",
+          "url": "https://www.ixigo.com/hotels/hotels-in-jaipur",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "1,165+ hotels available on Ixigo for Jaipur."
+        },
+        {
+          "data_point": "total_hotels_oyo",
+          "value": 40,
+          "source_name": "OYO Rooms / Holidify",
+          "url": "https://www.oyorooms.com/hotels-in-jaipur/",
+          "url2": "https://www.holidify.com/hotels/oyo-hotels-in-jaipur-8330.html",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "40+ OYO stay options in Jaipur. Avg price Rs 979/night."
+        },
+        {
+          "data_point": "hotel_pricing",
+          "source_name": "Booking.com",
+          "url": "https://www.booking.com/city/in/jaipur.html",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "3-star hotels avg $29/night, 4-star $63/night, 5-star $132/night."
+        },
+        {
+          "data_point": "unesco_heritage",
+          "source_name": "UNESCO",
+          "reliability": "HIGH",
+          "notes": "Jaipur City inscribed as UNESCO World Heritage Site in 2019."
+        }
+      ],
+      "data_gaps": [
+        "Ministry classified hotel count",
+        "Verified occupancy rates",
+        "Annual tourist arrivals data"
+      ]
+    },
+    "education": {
+      "data": {
+        "aicte_approved_colleges": 81,
+        "state_aicte_colleges": 210,
+        "universities_count": 8,
+        "iit_present": false,
+        "nit_present": true,
+        "nit_name": "MNIT Jaipur (Malaviya National Institute of Technology)",
+        "iim_present": false,
+        "bits_present": true,
+        "bits_name": "BITS Pilani (nearby)",
+        "literacy_rate_district": 75.51,
+        "literacy_rate_urban": 82.47,
+        "literacy_rate_male": 86.05,
+        "literacy_rate_female": 64.02,
+        "district_literacy_rank_state": "2nd in Rajasthan"
+      },
+      "sources": [
+        {
+          "data_point": "aicte_colleges",
+          "value": 81,
+          "source_name": "Collegedunia / AICTE",
+          "url": "https://collegedunia.com/engineering/jaipur/aicte-approved-colleges",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "81 AICTE approved engineering colleges in Jaipur. 210 in Rajasthan state."
+        },
+        {
+          "data_point": "literacy_rate",
+          "value": 75.51,
+          "source_name": "Census 2011",
+          "url": "https://www.census2011.co.in/census/district/435-jaipur.html",
+          "year": 2011,
+          "reliability": "HIGH",
+          "notes": "District literacy 75.51%, Urban 82.47%. Ranks 2nd in Rajasthan."
+        }
+      ]
+    },
+    "real_estate": {
+      "data": {
+        "avg_price_per_sqft_city": 5000,
+        "malviya_nagar_price_sqft": 7450,
+        "malviya_nagar_range": "4650-12900",
+        "mansarovar_price_sqft": 5100,
+        "mansarovar_range": "4250-6700",
+        "vaishali_nagar_price_sqft": 4800,
+        "vaishali_nagar_range": "3950-6150",
+        "jagatpura_price_sqft": 4600,
+        "ajmer_road_price_sqft": 4200,
+        "affordable_areas_price": 1750,
+        "price_appreciation_1yr_vaishali_nagar": 17.1,
+        "price_appreciation_3yr_vaishali_nagar": 43.3,
+        "price_appreciation_5yr_ajmer_road_land": 131.0,
+        "price_appreciation_10yr_shivdaspura_land": 323.1,
+        "retail_gla_sqft_million": 2.1,
+        "retail_gla_rank_tier2": 3,
+        "land_acquisition_leader": true,
+        "emerging_hotspot": true,
+        "retail_expansion_hub_north": true
+      },
+      "sources": [
+        {
+          "data_point": "property_prices",
+          "source_name": "99acres Property Rates",
+          "url": "https://www.99acres.com/property-rates-and-price-trends-in-jaipur-prffid",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Malviya Nagar avg Rs 7,450/sqft (premium). Mansarovar Rs 5,100/sqft. Vaishali Nagar Rs 4,800/sqft."
+        },
+        {
+          "data_point": "price_appreciation",
+          "source_name": "99acres / Bajaj Finance",
+          "url": "https://www.bajajfinserv.in/property-rates-jaipur",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Land rates in Shivdaspura up 323.1% in 10 years. Strong appreciation trends."
+        },
+        {
+          "data_point": "retail_real_estate",
+          "source_name": "Knight Frank India - Think India Think Retail 2024",
+          "url": "https://www.knightfrank.co.in/research",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Jaipur has 2.1M sqft retail GLA. Ranks 3rd among tier-2 cities after Lucknow and Kochi. Identified as emerging real estate hotspot."
+        },
+        {
+          "data_point": "tier2_market_outlook",
+          "source_name": "CBRE India - Tier-II Cities Report",
+          "url": "https://www.cbre.co.in/insights/reports",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Jaipur key focal point for office absorption and warehousing expansion. Office stock among top tier-2 cities. Part of retail renaissance in tier-2."
+        },
+        {
+          "data_point": "land_acquisition_trends",
+          "source_name": "JLL India / CREDAI-Liases Foras",
+          "url": "https://www.jll.co.in/en/trends-and-insights/research",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Jaipur leads tier-2 cities in land acquisitions. North Indian tier-2/3 cities (Ludhiana, Jaipur, Lucknow) account for 44% of upcoming retail supply."
+        }
+      ]
+    },
+    "future_infrastructure": {
+      "data": {
+        "metro_phase_1_length_km": 11.98,
+        "metro_phase_1_stations": 11,
+        "metro_phase_1_status": "operational",
+        "metro_phase_1_operational_date": "2015-06-03",
+        "metro_phase_1b_operational_date": "2020-09-23",
+        "metro_phase_2_length_km": 23.51,
+        "metro_phase_2_stations": 21,
+        "metro_phase_2_cost_crore": 12260,
+        "metro_phase_2_status": "approved",
+        "metro_phase_2_completion_target": 2028,
+        "metro_phase_2_funding": "ADB and AIIB loans",
+        "metro_phases_approved": 2,
+        "western_dfc_connected": true,
+        "western_dfc_length_km": 1506,
+        "western_dfc_status": "96% complete",
+        "railway_kavach_deployed": true,
+        "railway_kavach_section": "Mathura-Kota (324 km)",
+        "railway_investment_crore": 12260,
+        "dedicated_freight_corridor": true,
+        "delhi_mumbai_expressway_connected": true,
+        "delhi_mumbai_expressway_km": 1386,
+        "delhi_mumbai_expressway_status": "82% complete, Oct 2025 target",
+        "expressway_connectivity_km": 300,
+        "highway_expansion_km": 350,
+        "airport_name": "Jaipur International Airport",
+        "airport_terminal_1_reopened": "2024-10-26",
+        "airport_terminal_1_capacity_mppa": 1.5,
+        "airport_terminal_2_expansion_crore": 600,
+        "airport_terminal_2_expansion_sqm": 15000,
+        "airport_future_capacity_mppa": 38.4,
+        "airport_new_terminal_3_planned": true,
+        "airport_new_terminal": true,
+        "airport_expansion_planned": true,
+        "airport_capacity_mppa": 10,
+        "bullet_train_corridor": false
+      },
+      "sources": [
+        {
+          "data_point": "metro_phase_1",
+          "source_name": "Wikipedia / Rajasthan Transport Portal",
+          "url": "https://en.wikipedia.org/wiki/Jaipur_Metro",
+          "url2": "https://transport.rajasthan.gov.in/content/transportportal/en/metro/Project/PresentStatus.html",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Phase 1 (11.98 km) operational since June 2015. 6th metro system in India."
+        },
+        {
+          "data_point": "metro_phase_2",
+          "source_name": "The Metro Rail Guy / Business Standard",
+          "url": "https://themetrorailguy.com/jaipur-metro-phase-2-information-stations-route-maps-tenders-updates/",
+          "url2": "https://www.business-standard.com/india-news/rajasthan-govt-plans-jaipur-metro-expansion-to-key-areas-in-phase-ii-124072500893_1.html",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Phase 2 (23.51 km Orange Line) approved. Rs 12,260 crore cost. ADB/AIIB funded. Target 2028."
+        },
+        {
+          "data_point": "smart_city",
+          "source_name": "Smart Cities Council / SmartCities.gov.in",
+          "url": "https://www.smartcitiescouncil.com/article/smart-city-mission-nine-projects-jaipur-completed-rs-142-cr",
+          "url2": "https://smartcities.gov.in/node/132",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Total investment Rs 2,401 crore proposed. 9 projects (Rs 142 cr) completed, 15 ongoing (Rs 277 cr). Rajasthan ranked 1st among states."
+        }
+      ]
+    },
+    "migration_employment": {
+      "data": {
+        "population_growth_rate": 2.42,
+        "national_avg_growth_rate": 1.1,
+        "annual_avg_growth_rate": 4.5,
+        "urban_unemployment_rate_india": 6.4,
+        "key_industries": [
+          "Tourism",
+          "Gems & Jewelry",
+          "Textiles",
+          "Handicrafts",
+          "IT/ITES"
+        ],
+        "it_sez_present": true,
+        "special_economic_zones": [
+          "Mahindra World City",
+          "Sitapura Industrial Area"
+        ],
+        "projected_population_2031": 8100000
+      },
+      "sources": [
+        {
+          "data_point": "population_growth",
+          "source_name": "MacroTrends / World Population Review",
+          "url": "https://www.macrotrends.net/global-metrics/cities/21280/jaipur/population",
+          "year": 2024,
+          "reliability": "HIGH",
+          "notes": "Metro area grew 2.42% YoY. One of fastest growing mega cities at 4.5% avg annual growth vs national urban avg 2%."
+        },
+        {
+          "data_point": "projected_population",
+          "source_name": "Jaipur Metro Phase 2 DPR",
+          "reliability": "HIGH",
+          "notes": "Population expected to reach 81 lakh (8.1 million) by 2031."
+        }
+      ],
+      "data_gaps": [
+        "City-specific employment data",
+        "Tourism sector employment",
+        "IT sector job growth"
+      ]
+    },
+    "data_quality_summary": {
+      "high_reliability_data": [
+        "Population (MacroTrends)",
+        "Metro Phase 1 status (Wikipedia/Rajasthan Govt)",
+        "Metro Phase 2 plans (Business Standard/Metro Rail Guy)",
+        "Smart City projects (SmartCities.gov.in)",
+        "NITI Health Index (NITI Aayog)",
+        "Real estate prices (99acres)",
+        "Literacy rate (Census 2011)",
+        "AICTE colleges (Collegedunia)"
+      ],
+      "medium_reliability_data": [
+        "Healthcare infrastructure (state-level)",
+        "Smart City investment details"
+      ],
+      "low_reliability_estimated_data": [
+        "Hotel count and hospitality data",
+        "Employment/migration city-level data"
+      ]
+    }
+  }
+}
