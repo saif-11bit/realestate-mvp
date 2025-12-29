@@ -254,7 +254,8 @@ export default function ComparePage() {
           <div className="px-6 py-4 border-b border-white/10">
             <h3 className="text-lg font-bold text-white">Detailed Score Comparison</h3>
           </div>
-          <table className="w-full">
+          <div className="overflow-x-auto">
+          <table className="w-full min-w-[600px]">
             <thead>
               <tr className="bg-white/5 border-b border-white/10">
                 <th className="text-left p-4 text-gray-500 font-medium">Category</th>
@@ -346,6 +347,7 @@ export default function ComparePage() {
               </tr>
             </tbody>
           </table>
+          </div>
         </div>
 
         {/* CTA */}

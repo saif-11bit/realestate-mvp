@@ -98,8 +98,13 @@ export default function LandingPage() {
       </section>
 
       {/* 6 Intelligence Layers */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 relative overflow-hidden">
+        {/* Background glow */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="w-[500px] h-[500px] bg-[#d4a574]/5 rounded-full blur-3xl" />
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
               <span className="text-gold-gradient">6 Layers</span> of City Intelligence
@@ -109,97 +114,84 @@ export default function LandingPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              {
-                key: 'healthcare_score' as const,
-                label: 'Healthcare',
-                icon: Heart,
-                description: 'Hospital beds, medical colleges, NITI Health Index',
-                color: '#ef4444'
-              },
-              {
-                key: 'education_score' as const,
-                label: 'Education',
-                icon: GraduationCap,
-                description: 'Universities, AICTE institutions, IIT/NIT/IIM presence',
-                color: '#a855f7'
-              },
-              {
-                key: 'real_estate_score' as const,
-                label: 'Real Estate Health',
-                icon: Building2,
-                description: 'Price per sqft, YoY appreciation, rental yield',
-                color: '#22c55e'
-              },
-              {
-                key: 'future_infrastructure_score' as const,
-                label: 'Future Infrastructure',
-                icon: Train,
-                description: 'Metro network, airport capacity, expressways',
-                color: '#3b82f6'
-              },
-              {
-                key: 'migration_score' as const,
-                label: 'Migration & Demand',
-                icon: Users,
-                description: 'Population growth, IT/ITES presence, SEZ development',
-                color: '#f59e0b'
-              },
-              {
-                key: 'overall_score' as const,
-                label: 'Liveability & Value',
-                icon: TrendingUp,
-                description: 'AQI, water stress, family ease, value efficiency',
-                color: '#14b8a6'
-              },
-            ].map((layer) => {
-              const Icon = layer.icon;
-              const sortedCities = [...cities].sort((a, b) => b.scores[layer.key] - a.scores[layer.key]);
-              const topCity = sortedCities[0];
-              const topScore = topCity.scores[layer.key];
+          {/* Clean Grid Layout */}
+          <div className="max-w-4xl mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+              {[
+                {
+                  label: 'Healthcare',
+                  icon: Heart,
+                  description: 'Medical infrastructure, hospitals & wellness facilities',
+                  color: '#ef4444',
+                },
+                {
+                  label: 'Education',
+                  icon: GraduationCap,
+                  description: 'Universities, colleges & research institutions',
+                  color: '#a855f7',
+                },
+                {
+                  label: 'Real Estate',
+                  icon: Building2,
+                  description: 'Property prices, yields & market health',
+                  color: '#22c55e',
+                },
+                {
+                  label: 'Infrastructure',
+                  icon: Train,
+                  description: 'Metro, airports & connectivity projects',
+                  color: '#3b82f6',
+                },
+                {
+                  label: 'Growth & Jobs',
+                  icon: Users,
+                  description: 'Employment trends & migration patterns',
+                  color: '#f59e0b',
+                },
+                {
+                  label: 'Hospitality',
+                  icon: TrendingUp,
+                  description: 'Hotels, tourism & lifestyle amenities',
+                  color: '#14b8a6',
+                },
+              ].map((layer, index) => {
+                const Icon = layer.icon;
 
-              return (
-                <div
-                  key={layer.key}
-                  className="card-premium p-6 group hover:border-[#d4a574]/40 transition-all duration-300"
-                >
-                  <div className="flex items-start justify-between mb-4">
-                    <div
-                      className="w-12 h-12 rounded-xl flex items-center justify-center"
-                      style={{ backgroundColor: `${layer.color}20` }}
-                    >
-                      <Icon className="w-6 h-6" style={{ color: layer.color }} />
-                    </div>
-                    <div className="text-right">
-                      <div className="text-2xl font-bold text-white">{topScore.toFixed(1)}<span className="text-sm text-gray-500">/100</span></div>
-                      <div className="text-xs text-gray-500">{topCity.city} leads</div>
+                return (
+                  <div
+                    key={layer.label}
+                    className="group"
+                  >
+                    <div className="bg-[#111]/60 backdrop-blur-sm border border-white/10 rounded-2xl p-4 hover:border-[#d4a574]/40 transition-all duration-300 hover:bg-[#151515] text-center h-full">
+                      {/* Icon */}
+                      <div
+                        className="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-3 transition-transform group-hover:scale-110"
+                        style={{ backgroundColor: `${layer.color}15`, border: `1px solid ${layer.color}30` }}
+                      >
+                        <Icon className="w-7 h-7" style={{ color: layer.color }} />
+                      </div>
+
+                      {/* Label */}
+                      <h3 className="text-base font-semibold text-white mb-1">{layer.label}</h3>
+
+                      {/* Description */}
+                      <p className="text-xs text-gray-500 leading-relaxed">{layer.description}</p>
                     </div>
                   </div>
-                  <h3 className="text-lg font-semibold text-white mb-2">{layer.label}</h3>
-                  <p className="text-sm text-gray-400">{layer.description}</p>
+                );
+              })}
+            </div>
+          </div>
 
-                  {/* Mini bar chart */}
-                  <div className="flex items-end gap-1 mt-4 h-8">
-                    {sortedCities.slice(0, 6).map((city, idx) => {
-                      const score = city.scores[layer.key];
-                      const height = (score / 100) * 100;
-                      return (
-                        <div
-                          key={city.city}
-                          className="flex-1 rounded-t transition-all duration-300 group-hover:opacity-80"
-                          style={{
-                            height: `${height}%`,
-                            backgroundColor: idx === 0 ? layer.color : `${layer.color}40`,
-                            minHeight: '4px'
-                          }}
-                        />
-                      );
-                    })}
-                  </div>
-                </div>
-              );
-            })}
+          {/* Bottom CTA */}
+          <div className="text-center mt-12">
+            <Link
+              href="/dashboard"
+              className="inline-flex items-center gap-2 text-[#d4a574] hover:text-[#e8c49a] transition-colors font-medium"
+            >
+              Explore all metrics by city
+              <ChevronRight className="w-4 h-4" />
+            </Link>
           </div>
         </div>
       </section>
