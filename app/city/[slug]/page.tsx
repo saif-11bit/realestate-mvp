@@ -20,7 +20,7 @@ import {
   ChevronRight
 } from 'lucide-react';
 import { getCityBySlug, getAllCitySlugs, getCityRank, getCityColor, getRating, formatPopulation, getAllCities } from '@/lib/data';
-import { SCORE_CATEGORIES, CITY_COLORS } from '@/lib/types';
+import { SCORE_CATEGORIES, CITY_COLORS, CityScores } from '@/lib/types';
 
 export function generateStaticParams() {
   return getAllCitySlugs().map((slug) => ({ slug }));
@@ -31,8 +31,8 @@ interface CityPageProps {
 }
 
 // Radar Chart Component
-function RadarChart({ scores, color }: { scores: Record<string, number>; color: string }) {
-  const categories = [
+function RadarChart({ scores, color }: { scores: CityScores; color: string }) {
+  const categories: { key: keyof CityScores; label: string; shortLabel: string }[] = [
     { key: 'healthcare_score', label: 'Healthcare', shortLabel: 'Health' },
     { key: 'education_score', label: 'Education', shortLabel: 'Edu' },
     { key: 'real_estate_score', label: 'Real Estate', shortLabel: 'RE' },
