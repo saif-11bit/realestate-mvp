@@ -1,9 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import { getAllCities, getCityColor } from '@/lib/data';
+import { getAllCities, getCityColor, getCityBySlug, formatNumber } from '@/lib/data';
 import { SCORE_CATEGORIES } from '@/lib/types';
-import { Check, ChevronRight, Star, TrendingUp, Heart, Users, Building2, Sparkles, ArrowRight } from 'lucide-react';
+import { Check, ChevronRight, Star, TrendingUp, Heart, Users, Building2, Sparkles, ArrowRight, IndianRupee } from 'lucide-react';
 import Link from 'next/link';
 
 export default function ComparePage() {
@@ -23,6 +23,17 @@ export default function ComparePage() {
   };
 
   const selectedCityData = allCities.filter((c) => selectedCities.includes(c.city));
+
+  // Get full city data (with verified_data including price per sqft)
+  const getFullCityData = (cityName: string) => {
+    return getCityBySlug(cityName.toLowerCase());
+  };
+
+  // Get price per sqft for a city
+  const getPricePerSqft = (cityName: string): number | null => {
+    const fullData = getFullCityData(cityName);
+    return fullData?.verified_data?.real_estate?.data?.avg_price_per_sqft_city ?? null;
+  };
 
   // Determine city profile based on scores
   const getCityProfile = (city: typeof allCities[0]) => {
@@ -224,8 +235,17 @@ export default function ComparePage() {
                     </div>
                   </div>
 
-                  {/* Best For */}
+                  {/* Price per Sqft */}
                   <div className="mt-4 pt-4 border-t border-white/10">
+                    <div className="text-xs text-gray-500 mb-1">Avg. Price/Sqft</div>
+                    <div className="flex items-center gap-1 text-lg font-bold text-white">
+                      <IndianRupee className="w-4 h-4 text-[#d4a574]" />
+                      <span>{getPricePerSqft(city.city) ? formatNumber(getPricePerSqft(city.city)!) : 'N/A'}</span>
+                    </div>
+                  </div>
+
+                  {/* Best For */}
+                  <div className="mt-3 pt-3 border-t border-white/10">
                     <div className="text-xs text-gray-500 mb-2">Best for</div>
                     <p className="text-sm text-[#d4a574] font-medium">
                       {profile.label === 'Earning Capital' ? 'Income & rental yield' :
@@ -316,6 +336,43 @@ export default function ComparePage() {
                   </tr>
                 );
               })}
+              {/* Price per Sqft Row */}
+              <tr className="border-b border-white/5 hover:bg-white/5">
+                <td className="p-4">
+                  <div className="flex items-center gap-2">
+                    <span className="text-xl">💰</span>
+                    <div>
+                      <div className="font-medium text-white">Avg. Price/Sqft</div>
+                      <div className="text-xs text-gray-500">City average property price</div>
+                    </div>
+                  </div>
+                </td>
+                {selectedCityData.map((city) => {
+                  const prices = selectedCityData.map((c) => getPricePerSqft(c.city)).filter((p): p is number => p !== null);
+                  const price = getPricePerSqft(city.city);
+                  const minPrice = Math.min(...prices);
+                  const isLowest = price === minPrice && prices.length > 0;
+                  const color = getCityColor(city.city);
+                  return (
+                    <td key={city.city} className="p-4 text-center">
+                      <div className="flex flex-col items-center gap-2">
+                        <span
+                          className={`text-2xl font-bold flex items-center ${isLowest ? '' : 'text-gray-500'}`}
+                          style={{ color: isLowest ? '#22c55e' : undefined }}
+                        >
+                          <IndianRupee className="w-5 h-5" />
+                          {price ? formatNumber(price) : 'N/A'}
+                        </span>
+                        {isLowest && (
+                          <span className="text-xs bg-green-500/20 text-green-400 px-2 py-0.5 rounded font-medium">
+                            Most Affordable
+                          </span>
+                        )}
+                      </div>
+                    </td>
+                  );
+                })}
+              </tr>
               {/* Overall Score Row */}
               <tr className="bg-white/5">
                 <td className="p-4">
